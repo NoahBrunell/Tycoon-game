@@ -18,15 +18,15 @@ function buyMultiplier() {
         target.textContent = Math.trunc(score)
         multiplierTarget.textContent = multiplier.toFixed(1)
         if (multiplierCost >= 10000) {
-            multiplierCost = multiplierCost + 1000
+            multiplierCost = multiplierCost + 200
         } else {
             if (multiplierCost >= 1000) {
-                multiplierCost = multiplierCost + 200
+                multiplierCost = multiplierCost + 40
             } else {
                 if (multiplierCost < 500) {
-                    multiplierCost = multiplierCost + 10
+                    multiplierCost = multiplierCost + 2
                 } else {
-                    multiplierCost = multiplierCost + 50
+                    multiplierCost = multiplierCost + 10
                 }
             }
         }
