@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div id="left">
+            <div id="buttons">
+                <button onclick="buyMultiplier()" id="buy-multiplier">Buy +1 multiplier</button>
+            </div>
+            <div id="prices">
+                <p id="multipliercost">10</p>
+            </div>
+        </div>
+        <div id="container">
+            <h1 id="headline">MEGIS CLICKER</h1>
+            <h1> Megis: <span id="targetspan">0</span></h1>
+            <img onclick="countMegis()" src="mega.jpg" id="megis" width="650px" alt="Megaforce">
+        </div>
+        <div id="right">
+            <h1 class="perkcounters">Multiplier: x<span id="multiplierspan">1</span></h1>
+        </div>
+        <script src="main.js"></script>
+    </main>
+    <div id="progressbar"></div>
+</body>
+
+</html>
